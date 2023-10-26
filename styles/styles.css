@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  background: var(--color-bg);
+  color: var(--white);
+  line-height: 1.7;
+}
+:root {
+  --color-bg: #1f1f38;
+  --bg-variant: #2c2c6c;
+  --primary: #4db5ff;
+  --primary-variant: rgba(77, 181, 255, 0.4);
+  --white: #fff;
+  --light: hsla(0, 0%, 100%, 0.6);
+  --transition: all 400ms ease;
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+}
+section {
+  margin-top: 4rem;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: var(--container-width-lg);
+}
+/* Header section */
+.header_wrapper {
+    height: 100%;
+    /* position: relative; */
+    text-align: center;
+}
